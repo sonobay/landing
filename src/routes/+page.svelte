@@ -91,8 +91,8 @@
         {#each artists as artist, i}
         <div class="w-56 flex items-center">
           <span class="w-6 mr-1">{i + 1}.</span>
-          <div class="w-16 mr-2">
-            <img class="rounded-full" src={artist.imagePath} alt={artist.name} />
+          <div class="mr-2">
+            <img class="rounded-full h-16 w-16" src={artist.imagePath} alt={artist.name} />
           </div>
           <div class="flex flex-col text-sm">
             <span class="text-midiBlue">{artist.name}</span>
