@@ -1,0 +1,30 @@
+[
+  {
+    "artistName": "DJ Extra Terrestrial",
+    "artistImagePath": "/images/artist-2.png",
+    "packName": "Zortex Zing",
+    "packImagePath": "/images/cover-2.png",
+    "price": ".025"
+  },
+  {
+    "artistName": "Kid 4-Step",
+    "artistImagePath": "/images/artist-3.png",
+    "packName": "Hi Hat Melt",
+    "packImagePath": "/images/cover-3.png",
+    "price": ".0001"
+  },
+  {
+    "artistName": "Cutting Crewnex",
+    "artistImagePath": "/images/artist-4.png",
+    "packName": "Bass 3x Blaster",
+    "packImagePath": "/images/cover-4.png",
+    "price": ".014"
+  },
+  {
+    "artistName": "The Only Ghost",
+    "artistImagePath": "/images/artist-5.png",
+    "packName": "Black Hole Burst",
+    "packImagePath": "/images/cover-5.png",
+    "price": ".4"
+  }
+]

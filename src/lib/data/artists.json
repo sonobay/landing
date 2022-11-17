@@ -1,0 +1,62 @@
+[
+  {
+    "name": "DJ Kwitty Krush",
+    "imagePath": "/images/artist-6.png",
+    "midiCount": 32
+  },
+  {
+    "name": "Cold Platitudes",
+    "imagePath": "/images/artist-7.png",
+    "midiCount": 23
+  },
+  {
+    "name": "CREWTONS",
+    "imagePath": "/images/artist-8.png",
+    "midiCount": 7
+  },
+  {
+    "name": "Kits in Space",
+    "imagePath": "/images/artist-9.png",
+    "midiCount": 76
+  },
+  {
+    "name": "DOLAMITE TWINS",
+    "imagePath": "/images/artist-10.png",
+    "midiCount": 21
+  },
+  {
+    "name": "Bellboy Bill",
+    "imagePath": "/images/artist-12.png",
+    "midiCount": 9
+  },
+  {
+    "name": "SUPER WASTE",
+    "imagePath": "/images/artist-13.png",
+    "midiCount": 8
+  },
+  {
+    "name": "DJ Shatterproof",
+    "imagePath": "/images/artist-14.png",
+    "midiCount": 3
+  },
+  {
+    "name": "Pinto Cents",
+    "imagePath": "/images/artist-15.png",
+    "midiCount": 32
+  },
+  {
+    "name": "Transit Sierra",
+    "imagePath": "/images/artist-16.png",
+    "midiCount": 6
+  },
+  {
+    "name": "Pie Electron",
+    "imagePath": "/images/artist-17.png",
+    "midiCount": 15
+  },
+  {
+    "name": "Sulk Mu",
+    "imagePath": "/images/artist-18.png",
+    "midiCount": 18
+  }
+]
