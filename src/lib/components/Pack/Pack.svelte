@@ -12,6 +12,7 @@
   const packNameSize = size === 'md' ? 'text-sm' : 'text-xs'
   const overlayPos = size === 'md' ? 'left-4 right-4 bottom-4' : 'left-2 right-2 bottom-2'
   const packDimensions = size === 'md' ? '288px' : '192px';
+  const artistDimensions = size === 'md' ? '32px' : '20px'
 
 </script>
 
@@ -19,7 +20,7 @@
   
   <div class="flex items-center mb-2">
     <div class={`${artistAvatarSize} rounded-full overflow-hidden`}>
-      <img src={artistImagePath} alt={artistName} />
+      <img src={artistImagePath} alt={artistName} height={artistDimensions} width={artistDimensions} />
     </div>
     <span class={`ml-2 text-midiBlue ${aristNameSize}`}>{artistName}</span>
   </div>
