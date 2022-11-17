@@ -11,6 +11,7 @@
   const aristNameSize = size === 'md' ? 'text-base' : 'text-sm'
   const packNameSize = size === 'md' ? 'text-sm' : 'text-xs'
   const overlayPos = size === 'md' ? 'left-4 right-4 bottom-4' : 'left-2 right-2 bottom-2'
+  const packDimensions = size === 'md' ? '288px' : '192px';
 
 </script>
 
@@ -24,7 +25,7 @@
   </div>
   
   <div class="rounded-xl overflow-hidden relative">
-    <img src={coverImagePath} alt={packName} />
+    <img src={coverImagePath} alt={packName} height={packDimensions} width={packDimensions} />
   
     <!-- meta overlay -->
     <div class={`absolute z-10 bg-white/90 overflow-hidden rounded-xl py-2 px-4 flex justify-between items-center ${packNameSize} ${overlayPos}`}>
