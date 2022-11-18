@@ -1,7 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/5b9d74b9de43b87a2ef6c9a1c71ee16f?family=Poppkorn);
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {font-family: "Poppkorn"; src: url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.eot"); src: url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/5b9d74b9de43b87a2ef6c9a1c71ee16f.svg#Poppkorn") format("svg"); }

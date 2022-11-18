@@ -11,16 +11,16 @@
 
     <div class="flex flex-col md:flex-row justify-evenly items-center py-12">
 
-      <div class="flex text-charcoal mb-12 md:mb-0">
+      <div class="grid grid-cols-2 gap-4 text-charcoal mb-12 md:mb-0">
 
-        <div class="flex flex-col px-6">
-          <span class="font-bold mb-2 text-lg">Dig thru the MIDI <br /> NFT library</span>
-          <a href="#" class="uppercase bg-gold text-center rounded-xl py-1 px-8">Find MIDI</a>
+        <div class="flex flex-col">
+          <span class="font-bold mb-2 sm:text-lg">Dig thru the MIDI <br /> NFT library</span>
+          <a href="#" class="uppercase bg-gold text-center rounded-xl py-1 px-8">Find</a>
         </div>
   
-        <div class="flex flex-col px-6">
-          <span class="font-bold mb-2 text-lg">Connect your <br /> instrument</span>
-          <a href="#" class="uppercase bg-midiBlue text-center rounded-xl py-1 px-8">Mint MIDI</a>
+        <div class="flex flex-col">
+          <span class="font-bold mb-2 sm:text-lg">Connect your <br /> instrument</span>
+          <a href="#" class="uppercase bg-midiBlue text-center rounded-xl py-1 px-8">Mint</a>
         </div>
   
       </div>
@@ -154,9 +154,9 @@
 
   <footer class="bg-gray-50">
     
-    <div class="container mx-auto px-4 py-12 flex justify-between items-end">
+    <div class="container mx-auto px-4 py-12 flex justify-between items-center sm:items-end flex-col sm:flex-row">
 
-      <div class="flex flex-col">
+      <div class="flex flex-col order-last sm:order-first mt-8 sm:mt-0 items-center sm:items-start">
 
         <!-- social icons-->
         <div class="flex mb-2">
@@ -182,12 +182,8 @@
         <div class="flex items-align mb-3">
 
           <Logo />
-          <div class="ml-2 flex flex-col font-['Poppkorn'] leading-[.5] text-4xl -mt-1 text-center text-charcoal">
-            <span>MIDI</span>
-            <div class="flex">
-              <span class="text-[#83BFE8]">.</span>
-              <span>link</span>
-            </div>
+          <div class="ml-2 h-9 flex -mt-1 text-center">
+            <img class="w-full" src="/images/midi-link.png" alt="MIDI.link" />
           </div>
 
         </div>

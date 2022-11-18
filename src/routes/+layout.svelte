@@ -8,12 +8,8 @@
 
     <h1 class="flex align-items">
       <Logo />
-      <div class="ml-2 flex flex-col font-['Poppkorn'] leading-[.5] text-4xl -mt-1 text-center text-charcoal">
-        <span>MIDI</span>
-        <div class="flex">
-          <span class="text-[#83BFE8]">.</span>
-          <span>link</span>
-        </div>
+      <div class="ml-2 h-9 flex -mt-1 text-center">
+        <img class="w-full" src="/images/midi-link.png" alt="MIDI.link" />
       </div>
     </h1>
   </div>
