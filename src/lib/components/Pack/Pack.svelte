@@ -22,7 +22,7 @@
     <div class={`${artistAvatarSize} rounded-full overflow-hidden`}>
       <img src={artistImagePath} alt={artistName} height={artistDimensions} width={artistDimensions} />
     </div>
-    <span class={`ml-2 text-midiBlue ${aristNameSize}`}>{artistName}</span>
+    <span class={`ml-2 text-midiBlueLink ${aristNameSize}`}>{artistName}</span>
   </div>
   
   <div class="rounded-xl overflow-hidden relative">

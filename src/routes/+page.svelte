@@ -7,11 +7,11 @@
 </script>
 <main>
 
-  <section class="container mx-auto px-4">
+  <section class="container mx-auto pt-12 pb-24">
 
     <div class="flex flex-col md:flex-row justify-evenly items-center py-12">
 
-      <div class="grid grid-cols-2 gap-4 text-charcoal mb-12 md:mb-0">
+      <div class="grid grid-cols-2 gap-4 sm:gap-8 md:gap-12 text-charcoal mb-12 md:mb-0">
 
         <div class="flex flex-col">
           <span class="font-bold mb-2 sm:text-lg">Dig thru the MIDI <br /> NFT library</span>
@@ -42,7 +42,7 @@
   </section>
 
   <!-- Latest Releases -->
-  <section class="bg-[#EEF5FA] pb-12">
+  <section class="bg-[#EEF5FA] pb-24">
 
     <SectionTitle title="Latest Releases" />
 
@@ -80,9 +80,9 @@
   </section>
 
   <!-- Hot Producers -->
-  <section class="pb-12">
+  <section class="pb-24">
 
-    <SectionTitle title="Hot Producers" />
+    <SectionTitle title="Trending" />
 
     <div class="w-full overflow-x-scroll no-scrollbar px-4">
 
@@ -95,7 +95,7 @@
             <img class="rounded-full h-16 w-16" src={artist.imagePath} alt={artist.name} />
           </div>
           <div class="flex flex-col text-sm">
-            <span class="text-midiBlue">{artist.name}</span>
+            <span class="text-midiBlueLink">{artist.name}</span>
             <span class="text-gray-400">MIDI: {artist.midiCount}</span>
           </div>
         </div>
@@ -108,13 +108,11 @@
   </section>
 
   <!-- Sell NFTs -->
-  <section class="bg-gray-100 shadow-inner pb-12">
+  <section class="bg-gray-100 py-32">
 
-    <SectionTitle title="Sell NFTs" />
+    <div class="container mx-auto px-4 flex justify-center">
 
-    <div class="container mx-auto px-4">
-
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl">
 
         <div class="flex flex-col bg-white shadow-md rounded-lg py-4 px-6 text-center justify-between">
           <span class="text-blue-400 text-3xl text-center font-semibold uppercase mb-1">Connect</span>
@@ -146,17 +144,17 @@
 
   </section>
 
-  <div class="py-16 text-center">
+  <div class="py-32 text-center">
 
-    <a href="https://app.midi.link" class="uppercase bg-midiYellow text-2xl py-3 px-6 rounded-xl">Enter Market</a>
+    <a href="https://app.midi.link" class="uppercase bg-gold text-2xl py-3 px-6 rounded-xl">Enter Market</a>
 
   </div>
 
   <footer class="bg-gray-50">
     
-    <div class="container mx-auto px-4 py-12 flex justify-between items-center sm:items-end flex-col sm:flex-row">
+    <div class="container mx-auto px-4 py-12 flex justify-between items-center md:items-end flex-col md:flex-row">
 
-      <div class="flex flex-col order-last sm:order-first mt-8 sm:mt-0 items-center sm:items-start">
+      <div class="flex flex-col order-last md:order-first mt-8 md:mt-0 items-center md:items-start">
 
         <!-- social icons-->
         <div class="flex mb-2">

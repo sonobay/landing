@@ -11,10 +11,11 @@ module.exports = {
 			},
 			colors: {
 				charcoal: '#414141',
-				midiBlue: '#83BFE8',
-				midiBlueLight: '#B8D0EB',
-				gold: '#F7CC47',
-				midiYellow: '#F7DF6D'
+				midiBlue: '#70C1EC',
+				midiBlueLight: '#B2D1EE',
+				midiBlueLink: '#1A85C0',
+				gold: '#FFCA09',
+				midiYellow: '#F2E06B'
 			}
 		}
 	},
