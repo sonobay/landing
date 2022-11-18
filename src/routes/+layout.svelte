@@ -8,8 +8,8 @@
 
     <h1 class="flex align-items">
       <Logo />
-      <div class="ml-2 h-9 flex -mt-1 text-center">
-        <img class="w-full" src="/images/midi-link.png" alt="MIDI.link" />
+      <div class="ml-2 h-9 w-[62px] flex -mt-1">
+        <img src="/images/midi-link.png" alt="MIDI.link" />
       </div>
     </h1>
   </div>

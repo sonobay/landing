@@ -182,7 +182,7 @@
         <div class="flex items-align mb-3">
 
           <Logo />
-          <div class="ml-2 h-9 flex -mt-1 text-center">
+          <div class="ml-2 h-9 w-[62px] flex -mt-1">
             <img class="w-full" src="/images/midi-link.png" alt="MIDI.link" />
           </div>
 
