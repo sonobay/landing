@@ -4,6 +4,7 @@
 	import SectionTitle from '$lib/components/SectionTitle/SectionTitle.svelte';
 	import artists from '$lib/data/artists.json';
 	import packs from '$lib/data/packs.json';
+	export const prerender = true;
 </script>
 
 <main>
