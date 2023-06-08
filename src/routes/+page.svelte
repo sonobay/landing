@@ -8,54 +8,61 @@
 </script>
 
 <main>
-	<section class="container mx-auto pt-12 pb-24">
-		<div class="flex flex-col md:flex-row justify-evenly items-center py-12">
-			<div class="grid grid-cols-2 gap-4 sm:gap-8 md:gap-12 text-charcoal mb-12 md:mb-0">
-				<div class="flex flex-col">
-					<span class="font-bold mb-2 sm:text-lg">Dig thru the MIDI <br /> NFT library</span>
-					<a href="#" class="uppercase bg-gold text-center rounded-xl py-1 px-8">Find</a>
+	<section class="container mx-auto h-[calc(100vh-76px)]">
+		<div class="flex justify-center h-full items-center">
+			<div class="absolute h-[32rem] w-[32rem] rounded-full bg-white b-0" />
+			<div class="z-10 flex justify-center flex-col items-center">
+				<img src="/images/devices-with-shadows.png" alt="SonoBay" />
+				<div class="flex mt-4 items-center mb-2">
+					<Logo />
+					<div class="w-64 -mt-2 ml-4">
+						<img src="/images/sb-fold.png" alt="SonoBay" />
+					</div>
 				</div>
-
-				<div class="flex flex-col">
-					<span class="font-bold mb-2 sm:text-lg">Connect your <br /> instrument</span>
-					<a href="#" class="uppercase bg-midiBlue text-center rounded-xl py-1 px-8">Mint</a>
+				<div class="flex text-xl items-center uppercase">
+					<span>The</span>
+					<div class="w-14">
+						<img class="w-full" src="/images/midi-logo_128.jpg" alt="MIDI" />
+					</div>
+					<span class="font-bold mr-1">NFT</span>
+					<span>Marketplace</span>
 				</div>
-			</div>
-
-			<div class="w-72">
-				<Pack
-					artistName="DJ Sluggacane"
-					artistImagePath="/images/sluggacane.png"
-					coverImagePath="/images/cover-1.png"
-					packName="ORN 808"
-					price=".025"
-				/>
+				<span class="text-xs uppercase text-gray-400"
+					>For Producers, Collaborators & Collectors</span
+				>
 			</div>
 		</div>
 	</section>
 
 	<!-- Latest Releases -->
-	<section class="bg-[#EEF5FA] pb-24">
-		<SectionTitle title="Latest Releases" />
+	<section class="bg-white pb-24">
+		<div class="container mx-auto px-8">
+			<SectionTitle title="Easily Buy & Sell MIDI NFT Packs" />
 
-		<div class="w-full overflow-x-scroll no-scrollbar">
-			<div class="flex">
-				{#each Array(5) as _, i}
-					<div class="flex">
-						{#each packs as pack}
-							<div class="w-48 mx-4">
-								<Pack
-									artistName={pack.artistName}
-									artistImagePath={pack.artistImagePath}
-									coverImagePath={pack.packImagePath}
-									packName={pack.packName}
-									price={pack.price}
-									size="sm"
-								/>
-							</div>
-						{/each}
+			<div class="flex flex-col sm:flex-row">
+				<div class="w-full sm:w-1/2">
+					<div class="bg-midiYellowLight">
+						<div>
+							<div><span class="font-bold">Connect</span> Instrument</div>
+						</div>
+
+						<div>
+							<div><span class="font-bold">Add</span> SYSEX Files</div>
+						</div>
+
+						<div>
+							<div><span class="font-bold">Mint</span> NFT Pack</div>
+						</div>
+
+						<div>
+							<div><span class="font-bold">List</span> and Sell</div>
+						</div>
 					</div>
-				{/each}
+				</div>
+
+				<div class="w-full sm:w-1/2">
+					<img src="/images/mint-modal.png" alt="Mint Pack" />
+				</div>
 			</div>
 		</div>
 	</section>
