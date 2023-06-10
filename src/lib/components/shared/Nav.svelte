@@ -23,19 +23,19 @@
 			<div class="flex justify-center text-sm">
 				<!-- Mint Button -->
 				<a
-					href="https://sepolia.sonobay.xyz/mint"
+					href="https://mumbai.sonobay.xyz/mint"
 					class="shadow rounded-xl px-8 py-2 bg-white mr-4 border-2 border-black">Mint</a
 				>
 
 				<!-- Connect Device -->
 				<a
-					href="https://sepolia.sonobay.xyz/config"
+					href="https://mumbai.sonobay.xyz/config"
 					class="shadow rounded-xl px-8 py-2 bg-white mr-4 border-2 border-black">Connect Device</a
 				>
 
 				<!-- Open app button -->
 				<a
-					href="https://sepolia.sonobay.xyz"
+					href="https://mumbai.sonobay.xyz"
 					class="bg-midiBlue rounded-xl px-8 py-2 flex items-center shadow border-2 border-midiBlue"
 					target="_blank">Open App</a
 				>
