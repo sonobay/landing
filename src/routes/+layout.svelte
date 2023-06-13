@@ -8,7 +8,7 @@
 
 <Head />
 <Nav />
-<main>
+<main class="text-charcoal">
 	<slot />
 </main>
 <Footer />
