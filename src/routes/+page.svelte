@@ -1,7 +1,8 @@
 <script>
 	import Logo from '$lib/components/Logo/Logo.svelte';
-	import UserProfileAndCollections from './sections/UserProfileAndCollections.svelte';
-	import LatestReleases from './sections/LatestReleases.svelte';
+	import LatestMidiPacks from './sections/LatestMidiPacks.svelte';
+	import Connect from './sections/Connect.svelte';
+	import BrowseAndMint from './sections/BrowseAndMint.svelte';
 	export const prerender = true;
 </script>
 
@@ -16,7 +17,7 @@
 					<img src="/images/sb-fold.png" alt="SonoBay" />
 				</div>
 			</div>
-			<div class="flex text-xl items-center uppercase">
+			<div class="flex text-xl items-center uppercase text-black">
 				<span>The</span>
 				<div class="w-14">
 					<img class="w-full" src="/images/midi-logo_128.jpg" alt="MIDI" />
@@ -28,5 +29,6 @@
 		</div>
 	</div>
 </section>
-<LatestReleases />
-<UserProfileAndCollections />
+<LatestMidiPacks />
+<Connect />
+<BrowseAndMint />
