@@ -3,17 +3,21 @@
 	import NounMidi from '../icons/NounMidi.svelte';
 	import NounMint from '../icons/NounMint.svelte';
 
-	export let image: string | undefined = undefined;
+	export let image: string;
 	export let name: string;
 	export let totalSupply: number;
+	export let id: number;
 </script>
 
-<div class="relative w-full h-full">
+<a
+	class="relative w-full h-full hover:cursor-pointer inline-block"
+	href={'https://mumbai.sonobay.xyz/midi/' + id}
+>
 	<div
 		class="rounded-xl overflow-hidden w-full h-full items-center justify-center flex bg-gray-100"
 	>
 		{#if image}
-			<img class="w-full" src={image} alt={name} />
+			<img class="w-full hover:scale-105 transition-all" src={image} alt={name} />
 		{:else}
 			<NounErrorPage size={36} />
 		{/if}
@@ -40,4 +44,4 @@
 			>
 		</div>
 	</div>
-</div>
+</a>

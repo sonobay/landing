@@ -9,7 +9,7 @@
 <header>
 	<nav class="container mx-auto py-4 px-4 hidden md:block">
 		<div class="flex flex-col sm:flex-row justify-between">
-			<div class="flex flex-col mb-4 sm:mb-0">
+			<div class="flex flex-row mb-4 sm:mb-0">
 				<h1>
 					<a href="/" class="flex align-items justify-center">
 						<Logo />
@@ -20,17 +20,18 @@
 				</h1>
 			</div>
 
-			<div class="flex justify-center text-sm">
+			<div class="flex justify-center items-center text-sm gap-4">
+				<a href="/about">About</a>
 				<!-- Mint Button -->
 				<a
 					href="https://polygon.sonobay.xyz/mint"
-					class="shadow rounded-xl px-8 py-2 bg-white mr-4 border-2 border-black">Mint</a
+					class="shadow rounded-xl px-8 py-2 bg-white border-2 border-black">Mint</a
 				>
 
 				<!-- Connect Device -->
 				<a
 					href="https://polygon.sonobay.xyz/config"
-					class="shadow rounded-xl px-8 py-2 bg-white mr-4 border-2 border-black">Connect Device</a
+					class="shadow rounded-xl px-8 py-2 bg-white border-2 border-black">Connect Device</a
 				>
 
 				<!-- Open app button -->
@@ -69,9 +70,30 @@
 					out:slide={{ duration: 300 }}
 					class="w-full py-8 flex flex-col gap-4 bg-midiYellow px-4"
 				>
-					<a href="#">Mint</a>
-					<a href="#">Connect Device</a>
-					<a href="#">Open App</a>
+					<a
+						href="#"
+						on:click={() => {
+							openMenu = false;
+						}}>Mint</a
+					>
+					<a
+						href="#"
+						on:click={() => {
+							openMenu = false;
+						}}>Connect Device</a
+					>
+					<a
+						href="#"
+						on:click={() => {
+							openMenu = false;
+						}}>Open App</a
+					>
+					<a
+						href="/about"
+						on:click={() => {
+							openMenu = false;
+						}}>About</a
+					>
 				</div>
 			{/if}
 		</div>

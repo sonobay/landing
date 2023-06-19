@@ -7,7 +7,7 @@
 </script>
 
 <section class=" relative overflow-x-hidden">
-	<div class="container mx-auto px-8 z-10 relative pb-16">
+	<div class="container mx-auto px-4 z-10 relative pb-16">
 		<SectionTitle title="Connect User profile & Collections" />
 		<div class="flex flex-col md:flex-row gap-6 sm:gap-12 justify-center items-center">
 			<img

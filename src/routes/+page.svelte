@@ -1,12 +1,16 @@
-<script>
+<script lang="ts">
 	import Logo from '$lib/components/Logo/Logo.svelte';
 	import LatestMidiPacks from './sections/LatestMidiPacks.svelte';
 	import Connect from './sections/Connect.svelte';
 	import BrowseAndMint from './sections/BrowseAndMint.svelte';
+	import type { ListingRow } from '$lib/types/listing-row';
 	export const prerender = true;
+
+	export let data: { latestListings: ListingRow[] };
+	let { latestListings } = data;
 </script>
 
-<section class="container mx-auto h-[calc(100vh-76px)] relative overflow-x-hidden">
+<section class="container mx-auto h-[100vh] lg:h-[calc(100vh-76px)] relative overflow-x-hidden">
 	<div class="flex justify-center h-full items-center">
 		<div class="absolute h-[32rem] w-[32rem] rounded-full bg-white b-0" />
 		<div class="z-10 flex justify-center flex-col items-center">
@@ -29,6 +33,6 @@
 		</div>
 	</div>
 </section>
-<LatestMidiPacks />
+<LatestMidiPacks {latestListings} />
 <Connect />
 <BrowseAndMint />
