@@ -11,7 +11,7 @@
 </script>
 
 <section class="bg-white pb-24">
-	<div class="container mx-auto px-8">
+	<div class="container mx-auto px-4">
 		<SectionTitle title="Easily Buy & Sell MIDI NFT Packs" />
 
 		<div class="flex flex-col sm:flex-row gap-6 sm:gap-12 justify-center items-center">

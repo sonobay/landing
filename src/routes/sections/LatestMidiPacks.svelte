@@ -1,17 +1,21 @@
-<script>
+<script lang="ts">
 	import CaretLeft from '$lib/components/icons/CaretLeft.svelte';
 	import CaretRight from '$lib/components/icons/CaretRight.svelte';
 	import { fade } from 'svelte/transition';
-	let images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+	import type { ListingRow } from '$lib/types/listing-row';
+	import Pack from '$lib/components/Pack/Pack.svelte';
 
-	let scrollContainer = {};
-	let innerWidth;
+	export let latestListings: ListingRow[] = [];
+
+	let scrollContainer: HTMLDivElement;
+	let innerWidth: number;
 	let showLeftScroll = false;
 	let showRightScroll = true;
 
 	function scrollRight() {
+		let maxScrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth;
 		scrollContainer.scrollLeft += innerWidth / 2;
-		if (scrollContainer.scrollLeft >= scrollContainer.scrollLeftMax - 100) showRightScroll = false;
+		if (scrollContainer.scrollLeft >= maxScrollLeft - 100) showRightScroll = false;
 		showLeftScroll = true;
 	}
 	function scrollLeft() {
@@ -33,16 +37,23 @@
 				class="flex flex-row gap-12 overflow-x-scroll lg:no-scrollbar pb-6 scroll-smooth"
 				style="-webkit-overflow-scrolling: auto;"
 			>
-				{#each images as image}
+				{#each latestListings as listing}
 					<div class="flex justify-center">
-						<div class="rounded-md h-72 w-72 lg:h-96 lg:w-96">
-							<img src="/images/pack-example.png" />
+						<div class="h-72 w-72 lg:h-96 lg:w-96">
+							<Pack
+								id={listing.midi?.id}
+								image={listing.midi?.metadata?.image
+									? listing.midi.metadata.image.replace('ipfs://', 'https://nftstorage.link/ipfs/')
+									: ''}
+								name={listing.midi?.metadata?.name ? listing.midi.metadata.name : ''}
+								totalSupply={listing.midi?.totalSupply ? listing.midi.totalSupply : 0}
+							/>
 						</div>
 					</div>
 				{/each}
 			</div>
 
-			{#if showLeftScroll}
+			{#if showLeftScroll && latestListings.length > 4}
 				<div class="hidden absolute top-0 bottom-6 -left-6  m-auto lg:flex items-center z-10">
 					<button
 						in:fade
@@ -54,7 +65,7 @@
 					</button>
 				</div>
 			{/if}
-			{#if showRightScroll}
+			{#if showRightScroll && latestListings.length > 4}
 				<div
 					class="hidden absolute top-0 bottom-6 -right-6 m-auto lg:flex items-center justify-end z-10"
 				>

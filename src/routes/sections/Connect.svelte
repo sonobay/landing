@@ -3,7 +3,7 @@
 </script>
 
 <section class="relative overflow-hidden ">
-	<div class="container mx-auto px-8 z-10 relative text-center py-24">
+	<div class="container mx-auto px-4 z-10 relative text-center py-24">
 		<h1 class="font-bold text-5xl mb-16">Connect MIDI device to get started</h1>
 		<div class="flex flex-col md:flex-row gap-12 justify-center items-center">
 			<img src="./images/MIDI-Plug.png" class="h-full max-h-[12rem] object-contain" alt="" />
