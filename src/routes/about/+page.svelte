@@ -6,7 +6,7 @@
 		<div class="flex justify-center gap-4 lg:gap-20 mb-16 relative z-10">
 			<img src="/logos/Midi.png" class="max-h-6 md:max-h-10 lg:max-h-16 h-full w-auto" alt="" />
 			<img src="/logos/X.png" class="max-h-6 md:max-h-10 lg:max-h-16 h-full w-auto" alt="" />
-			<img src="/logos/WideLogo.png" class="max-h-6 md:max-h-10 lg:max-h-16 h-full w-auto" alt="" />
+			<img src="/logos/Logo.png" class="max-h-6 md:max-h-10 lg:max-h-16 h-full w-auto" alt="" />
 		</div>
 		<div
 			class="z-10 relative p-6 lg:p-14  bg-midiYellowLight text-left rounded-[2rem] w-full flex-col flex lg:flex-row gap-12 items-center"
