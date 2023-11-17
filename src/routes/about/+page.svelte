@@ -13,48 +13,49 @@
 		>
 			<div class="w-full lg:w-2/3">
 				<p class="mb-4">
-					<span class="text-4xl font-bold">The History.</span> Lorem ipsum dolor sit amet, consectetur
-					adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-					ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-					mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-					laborum.
+					<span class="text-4xl font-bold">The History.</span> If you use digital music equipment, odds
+					are that you're already leveraging the power of MIDI. MIDI got it's start in the early 1980s
+					when a group of music industry leaders worked to create a standardized protocol for communication
+					between electronic musical instruments. It was a collaborative effort of key players from device
+					manufacturers that eventually gave birth to MIDI (Musical Instrument Digital Interface).
 				</p>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-					est laborum.
+					When MIDI came on the scene, stuff changed. Musicians used to be limited to standalone
+					instruments that couldn't easily interact, but with MIDI, they instantly gained the
+					ability to connect synthesizers, drum machines, and other gear. By allowing different
+					devices from various manufacturers to communicate and synchronize with each other, MIDI
+					became the unifying language of music.
 				</p>
 
 				<p class="mt-16">
-					<span class="text-4xl font-bold">The Now.</span> Lorem ipsum dolor sit amet, consectetur adipiscing
-					elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-					irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-					id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-					in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-					non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<span class="text-4xl font-bold">The Now.</span> Today MIDI is the backbone of a musician's
+					creative process, shaping the way we compose, record, and produce sound. And by harnessing
+					the capabilities of blockchain technology, a new era in how MIDI is bought, sold and shared
+					has arrived.
 				</p>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-					est laborum.
+					Sono Bay is the first and only NFT marketplace for MIDI that allows users to convert their
+					MIDI packs into digital assets on the blockchain in the form of NFTs. This fusion of MIDI
+					and non-fungible technology presents a new host of possibilities for musicians and
+					producers. Having your MIDI pack on the blockchain brings a level of true digital
+					ownership that hasn't been possible until now, and for the first time ever you can sell
+					MIDI packs that you've bought and no longer want. We think that's cool.
+				</p>
+
+				<p>
+					On Sono Bay artists can showcase, share, and monetize their MIDI creations and
+					collections. Sellers benefit from a new revenue stream, while buyers get access to
+					high-quality MIDI content for their own projects. Sono Bay is adding a new way to get the
+					most out of your synthesizer experience, and we’re glad you’re here!
+				</p>
+
+				<p>
+					Questions, comments, or just want to hang with other Sono Bay users? Go to our Discord at <a
+						href="https://bit.ly/sonodiscord"
+						target="_blank">https://bit.ly/sonodiscord</a
+					>, we’re looking forward to meeting you.
 				</p>
 			</div>
 
@@ -64,15 +65,13 @@
 				<div>
 					<img src="/images/AboutPage-DaveSmith.png" alt="" class="rounded-lg" />
 					<p class="text-sm mt-2">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
+						The ‘Father of MIDI’ Dave Smith played a pivotal role in the creation of MIDI
 					</p>
 				</div>
 				<div>
 					<img src="/images/AboutPage-RandomGuy.png" alt="" class="rounded-lg" />
 					<p class="text-sm mt-2">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
+						A guy sometime back in the 70’s messing with synths and making sick beats
 					</p>
 				</div>
 			</div>
